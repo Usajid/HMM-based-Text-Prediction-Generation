@@ -7,9 +7,13 @@ We already 2 files already in dataset folder. Shakespeare.txt (smaller 3000 line
 Link: https://www.kaggle.com/kingburrito666/shakespeare-plays 
 
 Required Libraries/Modules:
+
 Python3 (3.5.2 used)
+
 NLTK
+
 Pickle
+
 CMUDICT
 
 # Process and Algorithms:
