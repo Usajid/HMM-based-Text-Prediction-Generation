@@ -1,6 +1,7 @@
 # HMM ML Assignment 2
 
 Dataset used:
+
 Name: Shakespeare plays text corpus
 File: alllines.txt (Rename and place it to dataset/shakespeare.txt for our code reading)
 We already 2 files already in dataset folder. Shakespeare.txt (smaller 3000 lines version) and Shakespeare_big.txt with full original data.
