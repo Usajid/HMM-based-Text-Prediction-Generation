@@ -1,4 +1,4 @@
-# hmm_ml_assign2
+# HMM ML Assignment 2
 
 Dataset used:
 Name: Shakespeare plays text corpus
@@ -64,6 +64,8 @@ Note: Trained model attached right now with code is utilizing smaller version of
 
 Following 2 poems are automatically generated using our model. First one using smaller/minimized version of Shakespeare.txt (3000 lines) and second one using full data file Shakespeare.txt.
 
+! [](Figures/fig1.png)
+! [](Figures/fig2_better.png)
 
 As you can see that results are much better qualitatively using bigger version of dataset as it gives much more options to the algorithm to play with.
 
