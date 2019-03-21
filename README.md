@@ -75,12 +75,16 @@ Also, following results depict next word(s) predictions for different given sequ
 
 ![](Figures/fig3_1.png)
 ![](Figures/fig3_1a.png)
+
 ![](Figures/fig3_2.png)
 ![](Figures/fig3_2a.png)
+
 ![](Figures/fig3_3.png)
 ![](Figures/fig3_3a.png)
+
 ![](Figures/fig3_4.png)
 ![](Figures/fig3_4a.png)
+
 ![](Figures/fig3_5.png)
 ![](Figures/fig3_5a.png)
 
