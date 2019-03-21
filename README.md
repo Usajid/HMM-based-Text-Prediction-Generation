@@ -3,8 +3,11 @@
 Dataset used:
 
 Name: Shakespeare plays text corpus
-File: alllines.txt (Rename and place it to dataset/shakespeare.txt for our code reading)
-We already 2 files already in dataset folder. Shakespeare.txt (smaller 3000 lines version) and Shakespeare_big.txt with full original data.
+
+File: alllines.txt (Rename and place it in dataset/shakespeare.txt for our code reading)
+
+We already have 2 files in dataset folder. Shakespeare.txt (smaller 3000 lines version) and Shakespeare_big.txt with full original data.
+
 Link: https://www.kaggle.com/kingburrito666/shakespeare-plays 
 
 Required Libraries/Modules:
