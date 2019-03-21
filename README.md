@@ -33,7 +33,7 @@ For poem generation, we also have to keep track of syllables. For that we used C
 
 For step 5 we used CMU NLTK library as defined above.
 
-For text prediction, we used forward algorithm to get next word. But it is to be noted that this is extendable to n number of next word predictions. We treat this as computing likelihood problem. Basic idea is to get the likelihood for given sequence of words using HMM, but not navigating to the last/end token at the last step. For n given words, we proceed till nth step and then calculate the values for the states in the (n+1)th step. So in the end for observations, we get n*V  scores, where V is the dictionary size of the observation. We choose the largest score and find the corresponding state and observation which would be the next predicted world for given sequence of words. In same way, we can extend it to predict next x words. In our implementation, we tested for next 5 words.
+For text prediction, we used forward algorithm to get next word. But it is to be noted that this is extendable to n number of next word predictions. We treat this as "computing likelihood" problem. Basic idea is to get the likelihood for given sequence of words using HMM, but not navigating to the last/end token at the last step. For n given words, we proceed till nth step and then calculate the values for the states in the (n+1)th step. So in the end for observations, we get n*V  scores, where V is the dictionary size of the observation. We choose the largest score and find the corresponding state and observation which would be the next predicted world for given sequence of words. In same way, we can extend it to predict next x words. In our implementation, we tested for next 5 words.
 
 For automated poem generation use following command from src directory:
 
@@ -50,13 +50,13 @@ Given sequence of words should be placed in test.txt file in one line with space
 
 
 
-For training your own HMM, you have to copy and rename your dataset file to Shakespeare.txt in dataset directory. Also, dont forget to remove  quotes sign from all lines in your txt file. Then use following command to train your model (Smaller dataset file (3000 lines of code) takes around 2 hours while full Shakespeare dataset txt file takes several hours to train completely).
+For training your own HMM, you have to copy and rename your dataset file to "Shakespeare.txt" in dataset directory. Also, don't forget to remove " quotes sign from all lines in your txt file. Then use following command to train your model (Smaller dataset file (3000 lines of code) takes around 2 hours while full Shakespeare dataset txt file takes several hours to train completely).
 
 python3 training.py
 
 
 # Results:
-Note: Trained model attached right now with code is utilizing smaller version of Shakespeare dataset (3000 lines of text as discussed above). You should train it first using given training command as above and use shakespeare_big.txt (in dataset directory of project). Remember to rename it to shakespeare.txt.
+Note: Trained model attached right now with code is utilizing smaller version of Shakespeare dataset (3000 lines of text as discussed above). You should train it first using given training command as above and use  "shakespeare_big.txt" (in dataset directory of project). Remember to rename it to "shakespeare.txt".
 
 Following 2 poems are automatically generated using our model. First one using smaller/minimized version of Shakespeare.txt (3000 lines) and second one using full data file Shakespeare.txt.
 
@@ -66,4 +66,4 @@ As you can see that results are much better qualitatively using bigger version o
 Also, following results depict next word(s) predictions for different given sequence of words.
 
 
-As we can see, its very hard to predict sensible and better word(s) predictions using HMM. Thats why we think researchers shifted towards LSTM based models. Also, it can be observed that more required number of predicted words degrade the quality of final sentence.
+As we can see, it's very hard to predict sensible and better word(s) predictions using HMM. That's why we think researchers shifted towards LSTM based models. Also, it can be observed that more required number of predicted words degrade the quality of final sentence.
