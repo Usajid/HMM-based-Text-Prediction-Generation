@@ -73,5 +73,17 @@ As you can see that results are much better qualitatively using bigger version o
 
 Also, following results depict next word(s) predictions for different given sequence of words.
 
+![](Figures/fig3_1.png)
+![](Figures/fig3_1a.png)
+![](Figures/fig3_2.png)
+![](Figures/fig3_2a.png)
+![](Figures/fig3_3.png)
+![](Figures/fig3_3a.png)
+![](Figures/fig3_4.png)
+![](Figures/fig3_4a.png)
+![](Figures/fig3_5.png)
+![](Figures/fig3_5a.png)
+
+
 
 As we can see, it's very hard to predict sensible and better word(s) predictions using HMM. That's why we think researchers shifted towards LSTM based models. Also, it can be observed that more required number of predicted words degrade the quality of final sentence.
