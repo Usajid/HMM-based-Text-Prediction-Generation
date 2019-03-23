@@ -14,11 +14,17 @@ Required Libraries/Modules:
 
 Python3 (3.5.2 used)
 
-NLTK
+NLTK (pip3 install nltk)
 
 Pickle
 
-CMUDICT
+CMUDICT 
+(
+Use following commands in terminal to use CMUDICT:
+python3
+>>> import nltk
+>>> nltk.download('cmudict')
+)
 
 # Process and Algorithms:
 First we performed tokenization. Before that, please remove all double quotes from input txt file. We did that by using replace all feature of notepad++. Input text was tokenized into words using NLTK function word_tokenizer. Reason is that we treat word as the basic building for our problem definition that can be used to auto-generate complex sentences or poems. For generation part as defined in given problem part 1, we aimed at auto generating 14 lines poem from given Shakespeare text corpus. 
