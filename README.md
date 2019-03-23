@@ -54,24 +54,25 @@ For step 5 we used CMU NLTK library as defined above.
 
 For text prediction, we used forward algorithm to get next word. But it is to be noted that this is extendable to n number of next word predictions. We treat this as "computing likelihood" problem. Basic idea is to get the likelihood for given sequence of words using HMM, but not navigating to the last/end token at the last step. For n given words, we proceed till nth step and then calculate the values for the states in the (n+1)th step. So in the end for observations, we get n*V  scores, where V is the dictionary size of the observation. We choose the largest score and find the corresponding state and observation which would be the next predicted world for given sequence of words. In same way, we can extend it to predict next x words. In our implementation, we tested for next 5 words.
 
-For automated poem generation use following command from src directory:
+**For automated poem generation use following command from src directory:
 
-python3 generation.py
+**python3 generation.py
 
 
 
-and following for prediction:
+**and following for prediction:
 
-python3 prediction.py <text file name> <number of next words to be predicted (between 1 to 5 inclusive, for all other values we take it = 1)
-e.g. python3 prediction.py test.txt 5
+**python3 prediction.py <text file name> <number of next words to be predicted (between 1 to 5 inclusive, for all 
+other values we take it = 1)
+
+**e.g. python3 prediction.py test.txt 5
 
 Given sequence of words should be placed in test.txt file in one line with space separation.
 
 
-
 For training your own HMM, you have to copy and rename your dataset file to "Shakespeare.txt" in dataset directory. Also, don't forget to remove " quotes sign from all lines in your txt file. Then use following command to train your model (Smaller dataset file (3000 lines of code) takes around 2 hours while full Shakespeare dataset txt file takes several hours to train completely).
 
-python3 learning.py
+**python3 learning.py
 
 
 # Results:
