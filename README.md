@@ -54,9 +54,9 @@ For step 5 we used CMU NLTK library as defined above.
 
 For text prediction, we used forward algorithm to get next word. But it is to be noted that this is extendable to n number of next word predictions. We treat this as "computing likelihood" problem. Basic idea is to get the likelihood for given sequence of words using HMM, but not navigating to the last/end token at the last step. For n given words, we proceed till nth step and then calculate the values for the states in the (n+1)th step. So in the end for observations, we get n*V  scores, where V is the dictionary size of the observation. We choose the largest score and find the corresponding state and observation which would be the next predicted world for given sequence of words. In same way, we can extend it to predict next x words. In our implementation, we tested for next 5 words.
 
-**For automated poem generation use following command from src directory:
+**For automated poem generation use following command from src directory:**
 
-**python3 generation.py
+**python3 generation.py**
 
 
 
