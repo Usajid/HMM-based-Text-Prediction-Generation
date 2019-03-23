@@ -18,12 +18,17 @@ NLTK (pip3 install nltk)
 
 Pickle
 
-CMUDICT 
+CMUDICT
+
 (
 Use following commands in terminal to use CMUDICT:
+
 python3
+
 >>> import nltk
+
 >>> nltk.download('cmudict')
+
 )
 
 # Process and Algorithms:
