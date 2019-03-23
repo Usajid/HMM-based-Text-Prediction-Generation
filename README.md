@@ -10,7 +10,7 @@ We already have 2 files in dataset folder. Shakespeare.txt (smaller 3000 lines v
 
 Link: https://www.kaggle.com/kingburrito666/shakespeare-plays 
 
-Required Libraries/Modules:
+# Required Libraries/Modules:
 
 Python3 (3.5.2 used)
 
@@ -71,7 +71,7 @@ Given sequence of words should be placed in test.txt file in one line with space
 
 For training your own HMM, you have to copy and rename your dataset file to "Shakespeare.txt" in dataset directory. Also, don't forget to remove " quotes sign from all lines in your txt file. Then use following command to train your model (Smaller dataset file (3000 lines of code) takes around 2 hours while full Shakespeare dataset txt file takes several hours to train completely).
 
-python3 training.py
+python3 learning.py
 
 
 # Results:
