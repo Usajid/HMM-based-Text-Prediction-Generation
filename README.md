@@ -62,7 +62,7 @@ For text prediction, we used forward algorithm to get next word. But it is to be
 
 **and following for prediction:**
 
-**python3  prediction.py <text file name> <number of next words to be predicted (between 1 to 5 inclusive, for all 
+**python3  prediction.py <> <text file name> <number of next words to be predicted (between 1 to 5 inclusive, for all 
 other values we take it = 1)**
 
 **e.g. python3 prediction.py test.txt 5**
