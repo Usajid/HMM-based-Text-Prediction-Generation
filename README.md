@@ -1,4 +1,4 @@
-# HMM ML Assignment 2
+# HMM based Text Prediction and Generation
 
 Dataset used:
 
